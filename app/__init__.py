@@ -51,7 +51,7 @@ def show_all_things():
         things = result.rows
 
         # And show them on the page
-        return render_template("pages/things.jinja", things=things)
+        return render_template("pages/things.jinja", teams=things)
 
 
 #-----------------------------------------------------------
